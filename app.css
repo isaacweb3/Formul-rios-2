@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #76bbd4;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_9eaf61eb-311d-49fc-b703-a2477a59d2ce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form {
+    background-color: #f5f5f500;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 20px #8401ff;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3fb73f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    font-size: 17px;
+    background-color: #065b06;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+input[type="file"]{
+    margin-top: 10px;
+}
+
+.small-input {
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b18be;
+    box-shadow: 0 0 20px;
+    background-color: #d8dcf0;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 5%;
+    margin-left: 34.5%;
+   
+    top: 0;
+}
+
+footer{
+    color: #9000ff;
+    font-size: 20px;
+    margin: 10%;
+}
+
